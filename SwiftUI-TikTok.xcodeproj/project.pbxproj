@@ -11,6 +11,9 @@
 		47E5CAB82B46A68F0011A921 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAB72B46A68F0011A921 /* ContentView.swift */; };
 		47E5CABA2B46A6910011A921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E5CAB92B46A6910011A921 /* Assets.xcassets */; };
 		47E5CABD2B46A6910011A921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E5CABC2B46A6910011A921 /* Preview Assets.xcassets */; };
+		47E5CAD72B4793B40011A921 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAD62B4793B40011A921 /* MainTabView.swift */; };
+		47E5CAD92B479C500011A921 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAD82B479C500011A921 /* FeedView.swift */; };
+		47E5CADB2B479E7E0011A921 /* FeedCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CADA2B479E7E0011A921 /* FeedCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		47E5CAB72B46A68F0011A921 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		47E5CAB92B46A6910011A921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E5CABC2B46A6910011A921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47E5CAD62B4793B40011A921 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		47E5CAD82B479C500011A921 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		47E5CADA2B479E7E0011A921 /* FeedCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,13 @@
 		47E5CAB42B46A68F0011A921 /* SwiftUI-TikTok */ = {
 			isa = PBXGroup;
 			children = (
+				47E5CAC82B47911B0011A921 /* App */,
+				47E5CAC72B4790EA0011A921 /* Core */,
+				47E5CAC62B4790E70011A921 /* Explience */,
+				47E5CAC52B4790E40011A921 /* Model */,
+				47E5CAC42B4790E00011A921 /* Services */,
+				47E5CAC32B4790DD0011A921 /* Utils */,
 				47E5CAB52B46A68F0011A921 /* SwiftUI_TikTokApp.swift */,
-				47E5CAB72B46A68F0011A921 /* ContentView.swift */,
 				47E5CAB92B46A6910011A921 /* Assets.xcassets */,
 				47E5CABB2B46A6910011A921 /* Preview Content */,
 			);
@@ -65,6 +76,132 @@
 				47E5CABC2B46A6910011A921 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47E5CAC32B4790DD0011A921 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		47E5CAC42B4790E00011A921 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		47E5CAC52B4790E40011A921 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47E5CAC62B4790E70011A921 /* Explience */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explience;
+			sourceTree = "<group>";
+		};
+		47E5CAC72B4790EA0011A921 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				47E5CAD32B4792E90011A921 /* Authentication */,
+				47E5CAD12B4792A90011A921 /* Comments */,
+				47E5CAD52B47931E0011A921 /* Components */,
+				47E5CACF2B4792A40011A921 /* Feed */,
+				47E5CACE2B4792A10011A921 /* Notifications */,
+				47E5CACD2B47929F0011A921 /* Profile */,
+				47E5CACC2B47929C0011A921 /* Root */,
+				47E5CACB2B4792990011A921 /* Search */,
+				47E5CACA2B4792960011A921 /* TabBar */,
+				47E5CAC92B4792930011A921 /* UploadModel */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		47E5CAC82B47911B0011A921 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		47E5CAC92B4792930011A921 /* UploadModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadModel;
+			sourceTree = "<group>";
+		};
+		47E5CACA2B4792960011A921 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				47E5CAD62B4793B40011A921 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		47E5CACB2B4792990011A921 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		47E5CACC2B47929C0011A921 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				47E5CAB72B46A68F0011A921 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		47E5CACD2B47929F0011A921 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		47E5CACE2B4792A10011A921 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		47E5CACF2B4792A40011A921 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				47E5CAD82B479C500011A921 /* FeedView.swift */,
+				47E5CADA2B479E7E0011A921 /* FeedCall.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		47E5CAD12B4792A90011A921 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		47E5CAD32B4792E90011A921 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		47E5CAD52B47931E0011A921 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E5CAD92B479C500011A921 /* FeedView.swift in Sources */,
 				47E5CAB82B46A68F0011A921 /* ContentView.swift in Sources */,
+				47E5CADB2B479E7E0011A921 /* FeedCall.swift in Sources */,
 				47E5CAB62B46A68F0011A921 /* SwiftUI_TikTokApp.swift in Sources */,
+				47E5CAD72B4793B40011A921 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
