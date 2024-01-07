@@ -11,7 +11,7 @@ struct MainTabView: View {
     @State private var selectedTab = 0
     var body: some View {
         TabView (selection: $selectedTab){
-            Text("Feed")
+            FeedView()
                 .tabItem {
                     VStack {
                         // 選択された時に塗りつぶすようになる
@@ -22,7 +22,7 @@ struct MainTabView: View {
                 }
                 .onAppear{ selectedTab = 0}
                 .tag(0)
-            Text("Friends")
+            ExploreView()
                 .tabItem {
                     VStack{
                         // 選択された時に塗りつぶすようになる
@@ -37,7 +37,7 @@ struct MainTabView: View {
                 .tabItem { Image(systemName: "plus") }
                 .onAppear{ selectedTab = 2}
                 .tag(2)
-            Text("Notfications")
+            NotficationsView()
                 .tabItem {
                     VStack{
                         // 選択された時に塗りつぶすようになる
@@ -48,7 +48,7 @@ struct MainTabView: View {
                 }
                 .onAppear{ selectedTab = 3}
                 .tag(3)
-            Text("Profile")
+            CurrentUserProfileView()
                 .tabItem {
                     VStack{
                         // 選択された時に塗りつぶすようになる

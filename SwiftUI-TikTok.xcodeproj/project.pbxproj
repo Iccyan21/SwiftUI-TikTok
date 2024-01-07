@@ -14,6 +14,14 @@
 		47E5CAD72B4793B40011A921 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAD62B4793B40011A921 /* MainTabView.swift */; };
 		47E5CAD92B479C500011A921 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAD82B479C500011A921 /* FeedView.swift */; };
 		47E5CADB2B479E7E0011A921 /* FeedCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CADA2B479E7E0011A921 /* FeedCall.swift */; };
+		47E5CADD2B4A48030011A921 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CADC2B4A48030011A921 /* ExploreView.swift */; };
+		47E5CADF2B4A481D0011A921 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CADE2B4A481D0011A921 /* UserCell.swift */; };
+		47E5CAE12B4A4B2D0011A921 /* NotficationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAE02B4A4B2D0011A921 /* NotficationsView.swift */; };
+		47E5CAE32B4A4B400011A921 /* NotficationCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAE22B4A4B400011A921 /* NotficationCall.swift */; };
+		47E5CAE52B4A4E5D0011A921 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAE42B4A4E5D0011A921 /* CurrentUserProfileView.swift */; };
+		47E5CAE72B4A4E820011A921 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAE62B4A4E820011A921 /* ProfileHeaderView.swift */; };
+		47E5CAE92B4A4E940011A921 /* PostGiredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAE82B4A4E940011A921 /* PostGiredView.swift */; };
+		47E5CAED2B4A52DD0011A921 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5CAEC2B4A52DD0011A921 /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +33,14 @@
 		47E5CAD62B4793B40011A921 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		47E5CAD82B479C500011A921 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		47E5CADA2B479E7E0011A921 /* FeedCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCall.swift; sourceTree = "<group>"; };
+		47E5CADC2B4A48030011A921 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		47E5CADE2B4A481D0011A921 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		47E5CAE02B4A4B2D0011A921 /* NotficationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotficationsView.swift; sourceTree = "<group>"; };
+		47E5CAE22B4A4B400011A921 /* NotficationCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotficationCall.swift; sourceTree = "<group>"; };
+		47E5CAE42B4A4E5D0011A921 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		47E5CAE62B4A4E820011A921 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		47E5CAE82B4A4E940011A921 /* PostGiredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGiredView.swift; sourceTree = "<group>"; };
+		47E5CAEC2B4A52DD0011A921 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +164,8 @@
 		47E5CACB2B4792990011A921 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				47E5CADC2B4A48030011A921 /* ExploreView.swift */,
+				47E5CADE2B4A481D0011A921 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -163,6 +181,9 @@
 		47E5CACD2B47929F0011A921 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				47E5CAEB2B4A52810011A921 /* View */,
+				47E5CAEA2B4A52790011A921 /* Components */,
+				47E5CAE42B4A4E5D0011A921 /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -170,6 +191,8 @@
 		47E5CACE2B4792A10011A921 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				47E5CAE02B4A4B2D0011A921 /* NotficationsView.swift */,
+				47E5CAE22B4A4B400011A921 /* NotficationCall.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -202,6 +225,23 @@
 			children = (
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		47E5CAEA2B4A52790011A921 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		47E5CAEB2B4A52810011A921 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47E5CAE82B4A4E940011A921 /* PostGiredView.swift */,
+				47E5CAE62B4A4E820011A921 /* ProfileHeaderView.swift */,
+				47E5CAEC2B4A52DD0011A921 /* UserStatView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +314,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E5CAE32B4A4B400011A921 /* NotficationCall.swift in Sources */,
 				47E5CAD92B479C500011A921 /* FeedView.swift in Sources */,
+				47E5CAE72B4A4E820011A921 /* ProfileHeaderView.swift in Sources */,
+				47E5CAED2B4A52DD0011A921 /* UserStatView.swift in Sources */,
 				47E5CAB82B46A68F0011A921 /* ContentView.swift in Sources */,
 				47E5CADB2B479E7E0011A921 /* FeedCall.swift in Sources */,
 				47E5CAB62B46A68F0011A921 /* SwiftUI_TikTokApp.swift in Sources */,
+				47E5CADD2B4A48030011A921 /* ExploreView.swift in Sources */,
+				47E5CAE12B4A4B2D0011A921 /* NotficationsView.swift in Sources */,
+				47E5CAE52B4A4E5D0011A921 /* CurrentUserProfileView.swift in Sources */,
 				47E5CAD72B4793B40011A921 /* MainTabView.swift in Sources */,
+				47E5CAE92B4A4E940011A921 /* PostGiredView.swift in Sources */,
+				47E5CADF2B4A481D0011A921 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
